@@ -9,10 +9,10 @@
 
       .hero-image {
         background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)
           ),
-          url("https://images.unsplash.com/photo-1569396116180-210c182bedb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+          url("./images/logos/logo_iteration_hero.png");
 
         height: 50%;
 
@@ -40,39 +40,52 @@
         box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
           0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
         background-color: white;
+        line-height: 1.6;
       }
 
-      p,
-      h1,
-      h3 {
+      h3,
+      h4 {
         margin-left: 150px;
         margin-right: 150px;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
       }
 
-      .forms {
-        margin-left: 350px;
+      h1 {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
       }
 
-      .logos {
-        margin-left: 100px;
+      p {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-family: Arial, Helvetica, sans-serif;
       }
 
-      .personas {
-          margin-left: 150px;
+      .img {
+        text-align: center;
+      }
+
+      img {
+        width: 60%;
+        height: auto;
+      }
+
+      img:hover {
+        transform: scale(1.05);
       }
     </style>
   </head>
   <body>
-    <div class="hero-image">
-      <div class="hero-text">
-        <h1>UX/UI Case Study</h1>
-        <p>DataPiggy</p>
-      </div>
-    </div>
+    <div class="hero-image"></div>
     <section class="section">
-      <h1>Statement of the problem</h1>
+      <h1>
+        UI/UX case study: a step-by-step guide to the process of designing a
+        data marketplace.
+      </h1>
+      <h3>Statement of the problem</h3>
       <p>
         There is 2.5 quintillion bytes of data created daily, and this number
         will only grow with the expansion of the internet of things. Those bytes
@@ -89,11 +102,11 @@
         form and the result is users discard their data privacy. We believe that
         everyone should have a say on how their personal data is used, and who
         can benefit from it. The goal of DataPiggy is to create a personal data
-        marketplace
+        marketplace.
       </p>
 
-      <h1>Research Methods</h1>
-      <h3>User interaction</h3>
+      <h3>Research Methods</h3>
+      <h4>User interaction</h4>
       <p>
         Eight questionnaires and 25 forms were completed by potential users to
         help us better understand our users. The key points retrieved from the
@@ -108,27 +121,34 @@
         fraud events across Quebec have let the people perplex, and it’s
         essential that our platform is secure.
       </p>
-      <img class="forms" src="./images/form/willing_to_sell.PNG" />
-      <img class="forms" src="./images/form/which_feature.PNG" />
-      <img class="forms" src="./images/form/social_media_use.PNG" />
-      <img class="forms" src="./images/form/often_social_media_use.PNG" />
-      <img class="forms" src="./images/form/not_sell_to.PNG" />
-      <img class="forms" src="images/form/how_would_you_like_to_sell.PNG" />
+      <div class="img">
+        <img class="forms" src="./images/form/willing_to_sell.PNG" />
+        <img class="forms" src="./images/form/which_feature.PNG" />
+        <img class="forms" src="./images/form/social_media_use.PNG" />
+        <img class="forms" src="./images/form/often_social_media_use.PNG" />
+        <img class="forms" src="./images/form/not_sell_to.PNG" />
+        <img class="forms" src="images/form/how_would_you_like_to_sell.PNG" />
+      </div>
       <p>
         The sets of interviews can be found
         <a href="https://bit.ly/3bzTcmI">here</a>
       </p>
-      <h3>Personas</h3>
+      <h4>Personas</h4>
       <p>
         Results from interacting with our users suggested that there could be
         different types of users that could use DataPiggy. Creating personas
         helped us better understand our users’ needs, experiences, goals and
         behaviours.
       </p>
-      <img class="personas" src="./images/personas/earl_kosovich.png" />
-      <img class="personas" src="./images/personas/emma_bison_persona.png" />
-      <img class="personas" src="./images/personas/george_marcus_persona.png" />
-      <h3>Example of marketplace</h3>
+      <div class="img">
+        <img class="personas" src="./images/personas/earl_kosovich.png" />
+        <img class="personas" src="./images/personas/emma_bison_persona.png" />
+        <img
+          class="personas"
+          src="./images/personas/george_marcus_persona.png"
+        />
+      </div>
+      <h4>Example of marketplace</h4>
       <p>
         Before jumping into designing and creating charts, it was important to
         see examples of current marketplaces to have a better understanding of
@@ -139,27 +159,31 @@
         to it a price. It’s key to keep the same approach to create a sentiment
         of familiarity.
       </p>
-      <h3>User journey</h3>
-      <h3>User flowchart</h3>
-      <h3>Sketches</h3>
-      <h3>Wireframes</h3>
-      <h3>Storyboard</h3>
-      <h1>Visual Research</h1>
-      <h3>Logo</h3>
+      <h4>User journey</h4>
+      <h4>User flowchart</h4>
+      <h4>Sketches</h4>
+      <h4>Wireframes</h4>
+      <h4>Storyboard</h4>
+      <h3>Visual Research</h3>
+      <h4>Logo</h4>
       <p>
         The name DataPiggy came from merging the familiarity of a simple piggy
         bank and the main theme of data. The team wanted a simple logo that
         could fit with our style guides. After multiple iterations, a monochrome
         colour was chosen.
       </p>
-      <img class="logos" src="./images/logos/logo_iteration.png" />
-      <h3>Style guides</h3>
+      <div class="img">
+        <img class="logos" src="./images/logos/logo_iteration.png" />
+      </div>
+      <h4>Style guides</h4>
       <p>
         For our style guide, the Concordia colours were picked to honour the
         place of creation of DataPiggy. A simple, but popular font was added to
         complete the style guide.
       </p>
-      <img class="logos" src="./images/style_guide.png" />
+      <div class="img">
+        <img class="logos" src="./images/style_guide.png" />
+      </div>
     </section>
   </body>
 </html>
